@@ -21,4 +21,30 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(stringNumber);
+//console.log(stringNumber);
+
+
+
+
+
+let value = 22
+let negValue = -value
+
+//console.log(negValue);
+
+let str1 = 2
+let str2 = 2
+
+let str3 = str1 + str2
+
+//console.log(str3)
+
+//console.log("1" + 2)
+//console.log(1 + "2")
+//console.log("1" + 2 +2)
+//console.log(1 + 2 + "2")
+
+let gameCounter = 100
+//gameCounter++
+++gameCounter
+console.log(gameCounter)
