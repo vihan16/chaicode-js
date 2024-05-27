@@ -28,5 +28,24 @@ const obj2 = {3: "a", 4: "b"}
 const obj3 = {...obj1 , ...obj2}
 //console.log(obj3)
 
-console.log(tinderUSer)
-console.log(Object.keys(tinderUSer))
+//console.log(tinderUSer)
+//console.log(Object.keys(tinderUSer))
+
+const course = {
+    courssename: "bla_bla",
+    price:33,
+    courseinstructor:"i'am"
+}
+
+//course.courseinstructor
+
+const {courseinstructor} = course
+console.log(courseinstructor)
+
+//APIS
+
+// {
+//     "courssename": "bla_bla",
+//     "price": "free",
+//     "courseinstructor":"i'am"
+// }
